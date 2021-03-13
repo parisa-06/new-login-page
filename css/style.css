@@ -179,12 +179,14 @@
  @media screen and (max-width: 1025px) and (min-width: 1000px){
     .byd-box-form{
         width: 40%;
-        /* background-color: red; */
+        height: 90%;
+        /* background-color: rgb(38, 0, 255); */
     }
     .byd-form{
         height: 100vh;
         width: 100%;
         display: block;
+        /* background-color: red; */
      }
     .byd-welcome{
         margin-top: 5%;
@@ -198,7 +200,7 @@
 }
 .byd-box-form h4{
   border-right: 7px solid #D34476;
-  height: 6%;
+  height: 43px;
   font-size: 42px;
   margin-right: 2%;
   }
