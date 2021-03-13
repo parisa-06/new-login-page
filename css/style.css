@@ -44,7 +44,7 @@
     height: auto;
     
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) {
     .byd-advertising{
         display: none;
     }
@@ -175,7 +175,72 @@
  :-ms-input-placeholder {  
     color: #ffffff  
  }
- @media screen and (max-width: 1024px) and (min-width: 750px){
+
+ @media screen and (max-width: 1025px) and (min-width: 1000px){
+    .byd-box-form{
+        width: 40%;
+        /* background-color: red; */
+    }
+    .byd-form{
+        height: 100vh;
+        width: 100%;
+        display: block;
+     }
+    .byd-welcome{
+        margin-top: 5%;
+        margin-left: 2%;
+        }
+    
+ .byd-box-form{
+    width: 80%;
+    height: 70%;
+    
+}
+.byd-box-form h4{
+  border-right: 7px solid #D34476;
+  height: 6%;
+  font-size: 42px;
+  margin-right: 2%;
+  }
+
+  .user {
+   height          : 65px;
+   margin-top: 30%;
+   margin-bottom: 15%;
+   margin-right: 2%;
+   border-radius   : 30px;
+   background-color: #D2D3D5;
+     }
+#userName-id , #password-id{
+   border-radius: 30px;
+   font-size: 30px;
+   height: 100%;
+   }
+   #password-id{
+       padding: 1%;
+   }
+.pass {
+    height          : 65px;
+    margin-right: 2%;
+    border-radius   : 30px;
+    background-color: #D2D3D5;
+   
+     }
+
+.byd-box-form span{
+   font-size: 35px;
+   margin-right: 2%;
+}
+
+#log {
+   border-radius: 30px;
+   height:70px;
+   width: 65%;
+   margin-right: 2%;
+   
+}
+}
+ @media screen and (max-width: 1000px) and (min-width: 750px){
   
   .byd-welcome{
     width: 9%;
@@ -207,3 +272,4 @@
     font-size: 12px;
 }
 }
+

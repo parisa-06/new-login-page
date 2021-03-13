@@ -15,24 +15,24 @@
     
     <div class=" container-fluid ">
      <div class="row">
-      <div class="col-lg-8 col-0 byd-advertising">
+      <div class="col-xl-8 col-0 byd-advertising">
             <div class="image  ">
        <img class=" img-fluid" src="image/background.jpg" alt="">
             </div>
             </div>
             
-            <div class="col-lg-4 col-12 byd-form">
+            <div class="col-xl-4 col-12 byd-form">
                 <div class="byd-welcome">
                   <img src="image/welcome.png" alt="">
                  </div>
                
                  <div class="byd-box-form" >
                      <h4> &nbsp ورود</h4>
-                 <form action="">
+                 <form id="myform" action="">
                 <div class="user"><input type="text" name="Uname" id="userName-id" placeholder="نام کاربری"> <br></div>
                 <div class="pass"><input   type="password"  name="Pass" id="password-id" placeholder="رمز عبور"> <br></div>
                  <span>رمز عبور خود را فراموش کرده اید؟! کلیک کنید. </span> <br>
-                 <input type="button" name="log" id="log" value="ورود"> <br>
+                 <input type="submit" name="log" id="log" value="ورود" onclick="functionValid()"> <br>
                  </form> 
                  </div>
    
@@ -41,12 +41,15 @@
          </div>
 
     </div>
-
-    <script src="js/jquery.mim.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/script.js"></script>   
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
